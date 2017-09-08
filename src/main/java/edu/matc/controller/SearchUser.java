@@ -31,5 +31,6 @@ public class SearchUser extends HttpServlet {
         }
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);
+        // testing the git
     }
 }
